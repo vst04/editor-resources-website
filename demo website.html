@@ -1,15 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Editing Tools</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f5f5; /* Light blue background */
+            color: #333; /* Dark text color */
+        }
+        
+        header {
+            background-color: #309edd; /* Light blue header background */
+            color: #fff; /* Light text color */
+            padding: 1em;
+            text-align: center;
+        }
+        
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 10px;
+        }
+        
+        main {
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        hr {
+            margin-top: 20px;
+            border-color: #c444c0; /* Purple color */
+        }
+        
+        h1 {
+            font-size: 50px;
+            color: #333; /* Dark text color */
+        }
+        
+        h4 {
+            background-color: #bb1aa8; /* Purple color */
+            color: #fff; /* Light text color */
+            padding: 10px 20px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+        
+        h3 {
+            margin-top: 10px;
+        }
+        
+        p {
+            margin-bottom: 50px;
+        }
+        
+        video {
+            width: 40%; /* Adjust the width as needed */
+            margin: 0 auto;
+            display: block;
+            transform: rotate(-90deg); /* Rotate the video clip anticlockwise by 90 degrees */
+            margin-top: 20px;
+        }
+
+        /* Image hover effect */
+        img:hover {
+            opacity: 0.7; /* Reduce opacity on hover */
+            cursor: pointer; /* Change cursor to indicate clickable */
+        }
+
+        /* Clear floats */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /* Image container */
+        .image-container {
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        /* Individual image */
+        .image-container img {
+            width: 100%;
+            height: auto;
+            float: left;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
 <body>
     <header>
-        <h1 style="text-align:left;font-size:30px;margin-top: 10px;">webname</h1>
-        <h2 style="text-align:right;font-size:30px;margin-top: 10px;">login saved downloads</h1>
-        <hr style="margin-top: 10px;">
-        <h1 style="text-align:center;font-size:50px;margin-top: 50px;">FREE EDITING TOOLS</h1>
-        <hr style="margin-top: 50px;">
-        <h4 style="text-align:left;">search</h4>
-       <hr>
-        <h3 style="text-align:center;margin-top: 10px;">Songs | Sound effects | Overlays | Stock Videos</h3>
-        <p>Your source for minimal and abstract templates</p>
+        <img src="download.jpeg" alt="Logo" style="width: 70px; height: auto; text-align:left;">
+        
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Login</a>
+            <a href="#">Saved</a>
+        </nav>
     </header>
 
-  
+    <hr style="margin-bottom: 1px;">
 
+    <main>
+        <h1 style="margin-bottom: 1px;">FREE EDITING TOOLS</h1>
+        <p style="margin-bottom: 20px;">Your source for minimal and abstract templates</p>
+        <hr>
+        <h4 style="text-align:left; background-color: #bb1aa8; color: white; padding: 10px 100px 10px 20px;margin-top: 1px; margin-bottom: 1px">Search</h4>
+        <h3>Songs | Sound effects | Overlays | Stock Videos</h3>
+        <div class="image-container clearfix">
+            <img src="christian-lue-b4kKyX0BQvc-unsplash.jpg" alt="Logo">
+            <img src="jason-rai-qBlMxpqFiu8-unsplash.jpg" alt="Logo">
+            <img src="peter-herrmann-Lbt-cZyOUM4-unsplash.jpg" alt="Logo">
+        </div>
+        <video src="Snapinsta.app_video_10000000_445595797803904_2580742424179685074_n.mp4" controls></video>
+    </main>
+</body>
+</html>
